@@ -1,0 +1,27 @@
+node_modules/
+**/node_modules/ # Also ignore any nested node_modules that might occur
+.env # Also ignore .env files by default
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+pids
+*.pid
+*.seed
+*.pid.lock
+lib-cov
+coverage
+*.lcov
+.nyc_output
+.grunt
+bower_components
+.lock-wscript
+build/Release
+node_gyp_shared.gypi
+*.orig
+package-lock.json # It's good practice to commit package-lock.json, but for this exercise, to avoid too many files, I'll ignore it.
+# If you are using yarn, you can also ignore yarn.lock
+# yarn.lock
